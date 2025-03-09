@@ -107,6 +107,40 @@ Ja hetken päästä...
 
 ## Tehtävä-D
 
+### Ei kolmea sekoseiskaa
+
+Kansio "raportit" polkuun /home/ap ja kansion sisään tiedosto "raportti".
+
+![image](https://github.com/user-attachments/assets/a7b99973-6a1b-444d-9274-566a062f3f6e)
+
+![image](https://github.com/user-attachments/assets/ca0282ca-4eea-4a00-a673-d525c3d72598)
+
+raportti -tiedoston oikeudet pois käyttäjiltä 'group' ja 'others'
+
+![image](https://github.com/user-attachments/assets/dcf17c13-6a77-4c1b-ae0c-3d8b011f3e12)
+
+kansion 'raportit' oikeuksien tarkastus
+
+![image](https://github.com/user-attachments/assets/16ddea04-f7c9-4bc5-b207-97d0742657db)
+
+poistetaan vielä kansion oikeudet käyttäjiltä 'group' ja 'others'
+
+![image](https://github.com/user-attachments/assets/439238c5-fa59-4ea6-aa38-8ab348e927f8)
+
+### 'howdy'
+
+Tiedosto kotihakemistoon /home/ap komennolla `micro howdy`
+
+Tulostaa näytölle käyttäjänimen, päivämäärän, kellonajan ja tietokoneen isäntänimen
+
+![image](https://github.com/user-attachments/assets/539072d1-1fed-4999-9f7d-3d1eb42dca3c)
+
+`chmod ugo+x howdy` käyttäjille user,group,others suoritusoikeudet
+
+`sudo cp -v howdy /usr/local/bin` kopioidaan tiedosto polkuun /usr/local/bin, jotta se on kaikkien käyttäjien ajettavissa
+
+![image](https://github.com/user-attachments/assets/9cb8103b-68bb-47c0-a309-f619220de49a)
+
 
 ## Tehtävä-E
 
